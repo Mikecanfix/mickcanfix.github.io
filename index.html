@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mick can Fix – Handyman GTA</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+  .icon { font-size: 48px; margin-bottom: 0.5rem; }
+  h1 { font-size: 26px; font-weight: 700; color: #111; margin-bottom: 4px; }
+  .tagline { font-size: 14px; color: #888; margin-bottom: 1.5rem; }
+  .services {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    justify-content: center; margin-bottom: 2rem;
+  }
+  .tag {
+    font-size: 12px; background: #f0f0f0; color: #555;
+    border-radius: 20px; padding: 4px 12px;
+  }
+  .label { font-size: 13px; color: #aaa; margin-bottom: 1rem; }
+  .btns { display: flex; flex-direction: column; gap: 12px; }
+  .btn {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 18px; border-radius: 14px;
+    border: 1px solid #eee; background: #fafafa;
+    text-decoration: none; transition: background 0.15s, transform 0.1s;
+  }
+  .btn:hover { background: #f0f0f0; transform: scale(1.01); }
+  .btn-icon {
+    width: 42px; height: 42px; border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .btn-icon img { width: 26px; height: 26px; }
+  .btn-text { text-align: left; }
+  .btn-name { font-size: 15px; font-weight: 600; color: #111; }
+  .btn-sub { font-size: 12px; color: #999; }
+  .tg .btn-icon { background: #e6f4ff; }
+  .wa .btn-icon { background: #e8f8f0; }
+  .ig .btn-icon { background: #fff0f5; }
+  .arrow { margin-left: auto; color: #ccc; font-size: 18px; }
+  .footer { margin-top: 2rem; font-size: 11px; color: #bbb; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">🔧</div>
+  <h1>Mick can Fix</h1>
+  <p class="tagline">Handyman services · York Region &amp; GTA</p>
+
+  <div class="services">
+    <span class="tag">Furniture assembly</span>
+    <span class="tag">Minor repairs</span>
+    <span class="tag">Shelf installation</span>
+    <span class="tag">TV mounting</span>
+    <span class="tag">Painting</span>
+    <span class="tag">And more</span>
+  </div>
+
+  <p class="label">Choose how to reach me</p>
+
+  <div class="btns">
+    <a class="btn tg" href="https://t.me/ontarious_construction">
+      <div class="btn-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <path d="M21.8 4.2L18.4 19.6c-.3 1.1-1 1.4-1.9.9L12 17.2l-2.1 2c-.2.2-.5.3-.8.3l.3-4.2 7.3-6.6c.3-.3 0-.5-.4-.2L5.5 14.5 1.3 13.2C.3 12.9.3 12.2 1.6 11.7L20.4 3.1c.8-.3 1.6.2 1.4 1.1z" fill="#2AABEE"/>
+        </svg>
+      </div>
+      <div class="btn-text">
+        <div class="btn-name">Telegram</div>
+        <div class="btn-sub">@ontarious_construction</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+    <a class="btn wa" href="https://wa.me/16476421281">
+      <div class="btn-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.08-1.35A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.07 13.93c-.21.59-1.23 1.15-1.7 1.22-.44.06-.99.09-1.6-.1-.37-.11-.84-.27-1.45-.52-2.55-1.1-4.22-3.65-4.35-3.82-.13-.17-1.05-1.4-1.05-2.67 0-1.27.67-1.9.9-2.15.24-.26.52-.32.7-.32l.5.01c.16 0 .38-.06.59.45l.76 1.9c.06.15.1.32.01.51l-.28.52-.42.46c-.13.13-.27.27-.12.53.16.26.7 1.16 1.5 1.87.99.88 1.84 1.17 2.1 1.3.26.13.41.11.57-.07l.47-.56c.16-.21.32-.17.53-.1l1.7.8c.2.1.33.15.38.23.05.09.05.5-.16 1.09z" fill="#25D366"/>
+        </svg>
+      </div>
+      <div class="btn-text">
+        <div class="btn-name">WhatsApp</div>
+        <div class="btn-sub">+1 647 642 1281</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+    <a class="btn ig" href="https://instagram.com/ontarious_construction">
+      <div class="btn-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <rect x="2" y="2" width="20" height="20" rx="6" fill="url(#ig)"/>
+          <circle cx="12" cy="12" r="4.5" stroke="white" stroke-width="1.5" fill="none"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="white"/>
+          <defs>
+            <linearGradient id="ig" x1="2" y1="22" x2="22" y2="2" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F9A825"/>
+              <stop offset="0.5" stop-color="#E91E8C"/>
+              <stop offset="1" stop-color="#9C27B0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="btn-text">
+        <div class="btn-name">Instagram</div>
+        <div class="btn-sub">@ontarious_construction</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <p class="footer">York Region · North York · Markham · Richmond Hill</p>
+</div>
+</body>
+</html>
